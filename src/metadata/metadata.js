@@ -3,17 +3,16 @@ module.exports = {
   title: 'Frontend Developer',
   facts: {
     'Residence': 'str. Mărășești 15, bloc 41, Tulcea, Romania',
-    'Email': '<a href="mailto:adriantepsan@gmail.com">adriantepsan@gmail.com</a>'
+    'Email': '<a href="mailto:adriantepsan@gmail.com">adriantepsan@gmail.com</a>',
+    'Phone': '+40 756 699 537'
   },
   skills: [],
   plays: [
     {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+      title: 'Frontend Developer - mindit.io',
+      written: 'Aug 2021 - Present',
+      badges: ['mindit.io', 'Frontend', 'Redux', 'OpenAPI'],
+      contents: `At mindit.io, my most recent role has been as a Frontend Developer in a brand-new project which started a few days before my arrival. In the beginning, there was a major need in developing the architecture and starting the development of the interface as soon as possible. In this case, it was about an application in the pharmaceutical domain, and the client was in a haste to see a palpable result. We used Angular as the frontend framework, accompanied by some nice adjacent technologies to ease our work, such as Redux and OpenAPI. The backend application was written initially in Spring, but currently migrating to .NET because we decided that it will fit better for a future integration with other Microsoft services. I've worked in a team of professionals with whom I related very well and our teamwork factor was beyond the limits.`
     },
     {
       title: 'Twelfth Night',
