@@ -36,6 +36,24 @@
             </div>
         </div>
 
+        <h2>Professional Experience</h2>
+        {{#each plays}}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3>{{ title }}</h3>
+                <p class="text-muted">{{ written }}</p>
+
+                {{{markdown contents }}}
+
+                <div>
+                    {{#each badges }}
+                    <span class="badge badge-primary">{{ this }}</span>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        {{/each}}
+
         <h3 class="screen">Skills</h3>
 
         <h5 class="screen" style="font-weight: 500;">Hard Skills</h5>
@@ -68,24 +86,6 @@
             My extant work is including collaborations, consist of approximately 38 plays, 154 sonnets,
             two long narrative poems and a few other verses, some of uncertain authorship.
         </p>
-
-        <h2>Professional Experience</h2>
-        {{#each plays}}
-        <div class="card mb-4">
-            <div class="card-body">
-                <h3>{{ title }}</h3>
-                <p class="text-muted">{{ written }}</p>
-
-                {{{markdown contents }}}
-
-                <div>
-                    {{#each badges }}
-                    <span class="badge badge-primary">{{ this }}</span>
-                    {{/each}}
-                </div>
-            </div>
-        </div>
-        {{/each}}
 
         <h2>Education</h2>
         <p>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</p>
