@@ -1,8 +1,8 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Adrian Tepșan',
+  title: 'Frontend Developer',
   facts: {
-    'Residence': 'London',
+    'Residence': 'Tulcea, Romania',
     'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
                   <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
                   <span class="screen">wiki</span>
